@@ -1,7 +1,10 @@
-# wetteranalzer
+# WetterAnalzer
+Schulprojekt zur Analyse des städtischen Wetters anhand von Live-Daten von einer API. Das Projekt basiert auf der API [BrightSky](https://brightsky.dev/).
+
+## Installieren und Verwendung
+Ich habe [bun.sh](https://bun.sh/) in diesem Projekt verwendet.
 
 To install dependencies:
-
 ```bash
 bun install
 ```
@@ -9,7 +12,6 @@ bun install
 To run:
 
 ```bash
-bun run index.ts
+bun run src/index.ts
 ```
 
-This project was created using `bun init` in bun v1.1.34. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
